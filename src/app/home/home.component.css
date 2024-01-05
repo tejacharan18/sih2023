@@ -1,0 +1,137 @@
+.grids{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px;
+    padding: 60px 50px;
+    
+}
+.box1{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    background-color: rgb(247, 92, 92);
+    align-items: center;
+}
+.box1 p{
+margin-top: 15px;
+}
+.box2 p{
+    margin-top: 15px;
+}
+.box3 p{
+    margin-top: 15px;
+}
+.box2{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    
+    background-color:rgba(213, 140, 4, 0.886);
+}
+.box3{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    
+    border-radius: 15px;
+    background-color:rgb(5, 123, 5);
+}
+.box3:hover{
+    width: 110%;
+    height: 110%;
+}
+.box2:hover{
+    width: 110%;
+    height: 110%;
+}
+.box1:hover{
+    width: 110%;
+    height: 110%;
+}
+
+.cards1  .img1{
+    justify-content: center;
+    border:4px solid black;
+    border-radius:3rem;
+    width:300px;
+    height:300px;
+    
+
+}
+.cards1{
+     margin-left:50px; 
+    padding:0px 15px;
+    display:flex;
+    margin-right: 40px;
+    align-items: center;
+ }
+
+ .cards1  .card-text1{
+    margin-left:50px;
+    width:100%;
+    font-size: 20px;
+
+}
+.ins{
+    
+    padding:30px 10px;
+    text-align: center;
+
+}
+.cards2{
+    margin-left:50px; 
+   padding:0px 15px;
+   display:flex;
+   margin-right: 40px;
+   align-items: center;
+}
+
+.cards2  .text1{
+   margin-left:50px;
+   width:100%;
+   font-size: 20px;
+   margin-right: 50px;
+
+}
+.cards2  .img1{
+    justify-content: center;
+    border:4px solid black;
+    border-radius:3rem;
+    width:300px;
+    height:300px;
+}
+.card{
+    border:none;
+    width:100%;
+}
+.card-body{
+    text-align: justify;
+    font-size: 17px;
+}
+.card-title h5{
+color:blueviolet;
+letter-spacing: 0.05cm;
+font-size: 30px;
+margin-left: 15px;
+}
+.card2{
+    border: 1px black solid;
+    padding: 20px 30px;
+    background-color:rgba(3, 6, 54, 0.205);
+}
+.card2 .card-title{
+    font-size: 30px;
+    margin-left: 15px;
+    color:rgb(80, 9, 147);
+}
+.card2 .card-body{
+    line-height: 3ch;
+}

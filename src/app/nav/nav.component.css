@@ -1,11 +1,32 @@
 .top{
     background-color: rgb(3, 6, 54);
-    color:white;
-    padding: 1px;
-    font-size: 12px;
+    color:#ffffff;
+    padding:5px 15px;
+    font-size: 10px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
 
-    /* justify-content: space-between;     */
 }
+
+ .top .login{
+      font-size:20px;
+     margin-right:30px;
+ }
+ .login {
+    margin-left: 1000px;
+     display: flex;
+    align-items: center; 
+    font-family: Segoe UI, Helvetica, Calibri !important;
+    
+  } 
+  
+   .login i.fa-user {
+    margin-top: -15px; 
+    margin-right: 10px; 
+  }
+   
+   
 nav{
     background-color:rgb(3, 6, 54) ;
     height: 50px;
@@ -14,12 +35,13 @@ nav{
 nav ul{
     list-style: none;
     color:white;
-    margin-left: 120px;
+    margin-left: 30px;
     margin-right: 30px;
+    
 }
 nav ul li{
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 16px;
     margin-top: 10px;
     font-family: Segoe UI, Helvetica, Calibri !important;
@@ -30,10 +52,71 @@ nav ul li a{
     padding-top: 8px;
     padding-bottom: 18px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 5px; padding:10px 15px;
 }
 nav ul li a:hover{
     background-color: rgb(40, 44, 90);
+    cursor:pointer;
+    /* border-radius: 2rem; */
+   
 }
+.img{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap:20px;
+}
+.vertical-line {
+    width: 2px; 
+    height: 110px; 
+    background-color: #f6eded; 
+    margin: 0 20px; 
+  }
+.img .text{
+    
+margin-top: 25px;
+align-items:center;
+font-size:18px;
+font-weight: bold;
+color:rgb(7, 7, 48);
+margin-left: 60px;
 
-  
+}
+.list ul{
+    display:flex;
+  text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:40px;
+    
+}
+.list li{
+    list-style-type: none;
+    padding:5px 15px;
+    margin-right: 30px;
+
+}
+.list .f{
+    color:orange;
+}
+.list .s{
+    color:green;
+}
+.list .t{
+    color:red;
+}
+.foot{
+    margin-bottom: 0;
+}
+.marquee{
+    background-color: bisque;
+    color:blue
+}
+.not{
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}

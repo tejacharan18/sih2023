@@ -1,0 +1,30 @@
+.card{
+    border:none;
+    width:100%;
+}
+.card-body{
+    text-align: justify;
+    font-size: 17px;
+}
+.card-title h5{
+color:blueviolet;
+letter-spacing: 0.05cm;
+font-size: 30px;
+margin-left: 15px;
+}
+.card2{
+    border: 1px black solid;
+    padding: 20px 30px;
+    background-color:rgba(3, 6, 54, 0.205);
+}
+.card2 .card-title{
+    font-size: 30px;
+    margin-left: 15px;
+    color:rgb(80, 9, 147);
+}
+.card2 .card-body{
+    line-height: 3ch;
+}
+.container{
+    margin-top: 80px;
+}
